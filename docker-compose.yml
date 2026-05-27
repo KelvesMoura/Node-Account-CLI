@@ -1,0 +1,13 @@
+services:
+  #Node
+  node:
+    image: node:24-alpine
+    container_name: nodejs
+    volumes:
+      - .:/home/node/app
+    working_dir: /home/node/app
+    stdin_open: true
+    tty: true
+    command: sleep infinity
+    env_file:
+      - .env

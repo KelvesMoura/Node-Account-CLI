@@ -1,0 +1,17 @@
+{
+  "name": "Node-Account-CLI",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Kelves Moura",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.7"
+  }
+}
