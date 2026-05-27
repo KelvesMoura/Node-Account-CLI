@@ -4,9 +4,10 @@ A simple banking system running directly in the terminal. Create accounts, check
 
 ---
 
-## 📺 Demo
+## 🔗 Demo
 
-<video src="https://ofktshwuudgoslotznue.supabase.co/storage/v1/object/sign/Github/Node-Account-CLI.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNmQzMDM4OC02NDNjLTRiYjAtOGM0ZS0zOTFjZDMxYWM2OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJHaXRodWIvTm9kZS1BY2NvdW50LUNMSS5tcDQiLCJpYXQiOjE3Nzk4OTM2MjQsImV4cCI6MTkzNzU3MzYyNH0.FwcuxBz5Y_ZIM-ksXRu_rZiLS1YEiisNTMeuEdII53g" autoplay loop playsinline muted width="100%"></video>
+👉 <a href="https://ofktshwuudgoslotznue.supabase.co/storage/v1/object/sign/Github/Node-Account-CLI.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNmQzMDM4OC02NDNjLTRiYjAtOGM0ZS0zOTFjZDMxYWM2OWEiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJHaXRodWIvTm9kZS1BY2NvdW50LUNMSS5tcDQiLCJpYXQiOjE3Nzk4OTM2MjQsImV4cCI6MTkzNzU3MzYyNH0.FwcuxBz5Y_ZIM-ksXRu_rZiLS1YEiisNTMeuEdII53g">Access the Demo here</a>
+
 
 ---
 
