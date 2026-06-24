@@ -25,19 +25,19 @@ async function operation() {
       },
     ]);
     const action = response["action"];
-    if (action == "Criar Conta") {
-      await createAccount();
-    } else if (action == "Consultar Saldo") {
-      await showBalance();
-    } else if (action == "Depositar") {
-      await deposit();
-    } else if (action == "Sacar") {
-      await withdrawn();
-    } else if (action == "Encerrar Conta") {
-      await close();
-    } else if (action == "Sair") {
-      exit();
-    }
+
+    const listAction = {
+      "Criar Conta": createAccount,
+      "Consultar Saldo": showBalance,
+      Depositar: deposit,
+      Sacar: withdrawn,
+      "Encerrar Conta": close,
+      Sair: exit,
+    };
+
+    const actionSelected = listAction[action];
+
+    if (actionSelected) await actionSelected();
   } catch (err) {
     console.log(
       chalk.bgRed.black("Erro ao escolher as opções! Tente Novamente."),
